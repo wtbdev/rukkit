@@ -6,9 +6,9 @@ package io.rukkit.plugin;
 */
 public interface Plugin
 {
-	public void onLoad()
-	public void onEnable()
-	public void onDisable()
-	public void onServerDone()
-	public void onStop()
+	public void onLoad();
+	public void onEnable();
+	public void onDisable();
+	public void onServerDone();
+	public void onStop();
 }
